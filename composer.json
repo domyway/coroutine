@@ -1,0 +1,19 @@
+{
+    "name": "domyway/coroutine",
+    "description": "example about supporting coroutine",
+    "authors": [
+        {
+            "name": "domyway",
+            "email": "weizhao029@foxmail.com"
+        }
+    ],
+    "require": {
+		"php": ">=7.0.1"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"Domyway\\Coroutine\\": ["src/"]
+		}
+	}
+}
